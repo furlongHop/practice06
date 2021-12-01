@@ -7,12 +7,10 @@ public class MyBase extends Base{
 
         if (state.equals("낮")) { 
             day();
-        }if (state.equals("오후")) {
+        }else if (state.equals("오후")) {
         	afternoon();
-        } if(state.equals("밤")) {
-        	night();
         } else {
-        	
+        	night();
         }
     }
 

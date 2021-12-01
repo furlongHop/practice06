@@ -5,12 +5,10 @@ public class SmartPhone extends MusicPhone {
     public void execute(String str){    
         if("음악".equals(str)){
             playMusic();
-        }if("통화".equals(str)){
+        }else if("통화".equals(str)){
             super.execute(str);
-        }if("앱".equals(str)) {
+        }else{
         	app();
-        }else {
-        	
         }
     }
  
